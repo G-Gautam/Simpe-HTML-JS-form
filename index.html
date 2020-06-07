@@ -1,0 +1,41 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Test Taker</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <h1 class=title>Test Taker</h1>
+    <div class="container">
+        <div class="form-style-5">
+            <form>
+                <legend><span class="number">1</span> Question</legend>
+                <input type="text" id="question" placeholder="Question">
+
+                <legend><span class="number">2</span> Choices</legend>
+                <input type="text" id="choice1" placeholder="Enter the choice here">
+                <input type="text" id="choice2" placeholder="Enter the choice here">
+                <input type="text" id="choice3" placeholder="Enter the choice here">
+                <input type="text" id="choice4" placeholder="Enter the choice here">
+                <input type="text" id="choice5" placeholder="Enter the choice here">
+
+
+                <legend><span class="number">3</span> Answer</legend>
+                <input type="number" min=1 max=5 maxlength=1 id="answer" placeholder="Answer (enter the choice number)">
+
+                <input type="button" value="Submit Question" onclick="onSubmit()" />
+            </form>
+        </div>
+        <div class="textField">
+            <p id = textField style="margin: 10px 10px" >Code will appear here!</p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
